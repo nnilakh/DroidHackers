@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vn0n6vr.droidhackers.AileSearch">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:text="Aile Description"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ListView
+        android:layout_width="349dp"
+        android:layout_height="387dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+</android.support.constraint.ConstraintLayout>

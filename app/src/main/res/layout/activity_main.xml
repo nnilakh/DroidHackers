@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vn0n6vr.droidhackers.MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="135dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="135dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="134dp" />
+</android.support.constraint.ConstraintLayout>
